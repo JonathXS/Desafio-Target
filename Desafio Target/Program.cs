@@ -49,7 +49,7 @@ static void Finbonnaci()
     }
 }
 
-//Verifica se tem letra A maiuscula ou minuscula e conta quantas vezes aparece
+//Verifica se tem letra "A" maiuscula ou minuscula e conta quantas vezes aparece
 static void VerifyletterA()
 {
     Console.WriteLine("Digite uma string:");
@@ -67,9 +67,9 @@ static void VerifyletterA()
 
     if (count > 0)
     {
-        Console.WriteLine($"A letra 'a' aparece {count} vezes no texto.");
+        Console.WriteLine($"A letra 'a ou A' aparece {count} vezes no texto.");
     } else
     {
-        Console.WriteLine("A letra 'a' não aparece no texto.");
+        Console.WriteLine("A letra 'a ou A' não aparece no texto.");
     }
 }
